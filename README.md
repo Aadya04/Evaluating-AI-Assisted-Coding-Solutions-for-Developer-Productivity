@@ -1,7 +1,11 @@
 # Evaluating-AI-Assisted-Coding-Solutions-for-Developer-Productivity
 
-A number of AI-powered coding assistants have recently been developed to augment human software developers and engineers such as GitHub Copilot, StarCoder, Code Llama, Amazon CodeWhisperer, and ChatGPT. These tools aim to enhance developer productivity, automate repetitive tasks, and provide intelligent code suggestions.
+This project investigates whether AI-assisted coding tools like GitHub Copilot, StarCoder, and ChatGPT meaningfully enhance developer productivity and whether they could potentially replace human software engineers and data scientists. Using 1.36 TiB of GitHub Archive data stored in Google Cloud Storage (GCS), commit patterns were analyzed to identify trends in commit volume, language shifts, repository growth, and commit uniqueness using Locality-Sensitive Hashing (LSH).
 
-This project explores whether AI-assisted coding solutions provide meaningful improvements in developer productivity and whether they have the potential to eventually replace human software engineers and data scientists. By analyzing commit patterns in publicly available GitHub repositories using GitHub Archive data (1.36 TiB) stored in Google Cloud Storage, we investigate key trends, including commit volume distribution, language popularity shifts, repository growth, and the uniqueness of commit messages.
+Findings and Conclusion:
 
-Through data-driven insights, we assess the impact of AI-generated code on software development workflows, identifying whether AI tools supplement or disrupt traditional programming roles.
+Increased Productivity: AI tools accelerate coding tasks by offering suggestions, fixing bugs, and automating repetitive work, allowing developers to focus on creative problem-solving.
+Commit Behavior: While AI tools enhance code quality and reduce errors, top contributors continue to make high-volume commits, emphasizing the necessity of human expertise.
+Technology Integration: AI reduces development time and costs, but human oversight remains critical for system design, debugging, and maintenance.
+Text Similarity Analysis: LSH analysis shows a higher rate of duplicated AI-generated code, indicating the need for human supervision to ensure originality and relevance.
+Overall, AI assistants are powerful aids in enhancing productivity but are unlikely to replace human developers, who remain indispensable for innovation and complex problem-solving.
